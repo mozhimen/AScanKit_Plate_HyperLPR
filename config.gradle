@@ -1,0 +1,11 @@
+ext {
+    android = [
+            compileSdk           : 33,
+            namespace            : "com.mozhimen.scank_hyperlpr_platenum",
+            applicationId        : "com.mozhimen.scank_hyperlpr_platenum",
+            minSdk               : 21,
+            targetSdk            : 33,
+            versionCode          : 1,
+            versionName          : "0.0.1"
+    ]
+}
