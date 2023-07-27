@@ -1,0 +1,30 @@
+package com.mozhimen.scank_hyperlpr_platenum.helpers
+
+import com.hyperai.hyperlpr3.HyperLPR3
+import com.hyperai.hyperlpr3.bean.Plate
+import java.lang.StringBuilder
+
+
+/**
+ * @ClassName ScanKHyperLprHelper
+ * @Description TODO
+ * @Author Mozhimen & Kolin Zhao
+ * @Date 2023/7/21 17:11
+ * @Version 1.0
+ */
+fun Array<Plate>.toStr(): String =
+    ScanKHyperLprHelper.plates2Str(this)
+
+object ScanKHyperLprHelper {
+    fun plates2Str(plates: Array<Plate>): String =
+        if (plates.isNotEmpty()) {
+            val stringBuilder = StringBuilder()
+            for (plate in plates) {
+                var type = "未知车牌"
+                if (plate.type != HyperLPR3.PLATE_TYPE_UNKNOWN) type = HyperLPR3.PLATE_TYPE_MAPS[plate.type]
+                stringBuilder.append("[" + type + "]" + plate.code + "\n")
+            }
+            stringBuilder.toString()
+        } else ""
+
+}

@@ -11,7 +11,6 @@ import com.mozhimen.componentk.cameraxk.commons.ICameraXKCaptureListener
 import com.mozhimen.componentk.cameraxk.mos.MCameraXKConfig
 import com.hyperai.hyperlpr3.HyperLPR3
 import com.hyperai.hyperlpr3.bean.HyperLPRParameter
-import com.hyperai.hyperlpr3.bean.Plate
 import com.mozhimen.basick.utilk.android.util.it
 import com.mozhimen.basick.utilk.kotlin.joinArray2Str
 import com.mozhimen.scank_hyperlpr_platenum.ScanKHyperLpr
