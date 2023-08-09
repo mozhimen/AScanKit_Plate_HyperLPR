@@ -1,4 +1,4 @@
-package com.mozhimen.scank_hyperlpr_platenum.helpers
+package com.mozhimen.scank_plate_hyperlpr.helpers
 
 import com.hyperai.hyperlpr3.HyperLPR3
 import com.hyperai.hyperlpr3.bean.Plate

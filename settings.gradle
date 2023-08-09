@@ -18,7 +18,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ScanKit_HyperLPR_PlateNum"
+rootProject.name = "ScanKit_Plate_HyperLPR"
 include ':app'
-include ':scank_hyperlpr_platenum_base'
-include ':scank_hyperlpr_platenum'
+include ':scank_plate_hyperlpr_base'
+include ':scank_plate_hyperlpr'

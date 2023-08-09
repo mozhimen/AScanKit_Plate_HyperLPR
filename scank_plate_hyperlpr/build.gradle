@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.mozhimen.scank_hyperlpr_platenum'
+    namespace 'com.mozhimen.scank_plate_hyperlpr'
     compileSdk 33
 
     defaultConfig {
@@ -31,7 +31,7 @@ android {
 
 dependencies {
     implementation 'com.github.mozhimen.SwiftKit:basick:1.2.2'
-    api project(project.path.replace(project.name, '') +':scank_hyperlpr_platenum_base')
+    api project(project.path.replace(project.name, '') +':scank_plate_hyperlpr_base')
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'

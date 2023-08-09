@@ -37,7 +37,7 @@ android {
 }
 
 dependencies {
-    implementation project(':scank_hyperlpr_platenum')
+    implementation project(':scank_plate_hyperlpr')
     implementation 'com.github.mozhimen.SwiftKit:componentk:1.2.2'
     implementation 'com.github.mozhimen.SwiftKit:basick:1.2.2'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.3'

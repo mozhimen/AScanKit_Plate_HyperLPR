@@ -1,4 +1,4 @@
-package com.mozhimen.scank_hyperlpr_platenum
+package com.mozhimen.scank_plate_hyperlpr
 
 import android.graphics.Bitmap
 import com.hyperai.hyperlpr3.HyperLPR3

@@ -13,7 +13,7 @@ import com.hyperai.hyperlpr3.HyperLPR3
 import com.hyperai.hyperlpr3.bean.HyperLPRParameter
 import com.mozhimen.basick.utilk.android.util.it
 import com.mozhimen.basick.utilk.kotlin.joinArray2Str
-import com.mozhimen.scank_hyperlpr_platenum.ScanKHyperLpr
+import com.mozhimen.scank_plate_hyperlpr.ScanKHyperLpr
 import com.mozhimen.scank_hyperlpr_platenum_test.databinding.ActivityMainBinding
 
 @APermissionCheck(
