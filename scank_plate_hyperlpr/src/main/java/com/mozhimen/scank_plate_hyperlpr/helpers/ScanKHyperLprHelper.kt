@@ -12,11 +12,11 @@ import java.lang.StringBuilder
  * @Date 2023/7/21 17:11
  * @Version 1.0
  */
-fun Array<Plate>.toStr(): String =
-    ScanKHyperLprHelper.plates2Str(this)
+fun Array<Plate>.plates2str(): String =
+    ScanKHyperLprHelper.plates2str(this)
 
 object ScanKHyperLprHelper {
-    fun plates2Str(plates: Array<Plate>): String =
+    fun plates2str(plates: Array<Plate>): String =
         if (plates.isNotEmpty()) {
             val stringBuilder = StringBuilder()
             for (plate in plates) {
