@@ -6,7 +6,6 @@ import com.hyperai.hyperlpr3.bean.HyperLPRParameter
 import com.hyperai.hyperlpr3.bean.Plate
 import com.mozhimen.basick.utilk.bases.BaseUtilK
 
-
 /**
  * @ClassName ScanKHyperLpr
  * @Description TODO
@@ -14,7 +13,7 @@ import com.mozhimen.basick.utilk.bases.BaseUtilK
  * @Date 2023/7/21 11:31
  * @Version 1.0
  */
-class ScanKHyperLpr : BaseUtilK() {
+class ScanKPlateHyperLpr : BaseUtilK() {
     companion object {
         val instance = INSTANCE.holder
     }
@@ -31,6 +30,6 @@ class ScanKHyperLpr : BaseUtilK() {
     ////////////////////////////////////////////////////////////////////
 
     private object INSTANCE {
-        val holder = ScanKHyperLpr()
+        val holder = ScanKPlateHyperLpr()
     }
 }

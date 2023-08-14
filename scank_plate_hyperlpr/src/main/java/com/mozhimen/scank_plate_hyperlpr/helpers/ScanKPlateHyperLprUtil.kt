@@ -13,9 +13,9 @@ import java.lang.StringBuilder
  * @Version 1.0
  */
 fun Array<Plate>.plates2str(): String =
-    ScanKHyperLprHelper.plates2str(this)
+    ScanKPlateHyperLpr.plates2str(this)
 
-object ScanKHyperLprHelper {
+object ScanKPlateHyperLpr {
     fun plates2str(plates: Array<Plate>): String =
         if (plates.isNotEmpty()) {
             val stringBuilder = StringBuilder()
